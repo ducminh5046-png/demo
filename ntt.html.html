@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tao form va cac dieu khien tren form</title>
+
+</head>
+<body>
+    <!-- bai tap 1 -->
+<!-- <form method="get" action="#" style="width: 300px">
+    <h2 style="color: aqua; text-align: center">Đăng nhập</h2>
+    <table style="background-color: brown"; border: 1px cellspacing="0"> 
+        <tr>
+            <td>
+                <label for="username">Mã người dùng</label>
+            </td>
+            <td>
+                <input id="username" type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password">mật khẩu</label>
+            </td>
+            <td>
+                <input id="password" type="password">
+            </td>
+        </tr>
+        <tr style="text-align: center;">
+            <td colspan="2">
+            <input type="button" value="Đồng ý" onclick="alert('Hello, World');
+            var a = document.getElementById('username').value;
+             document.getElementById('info').innerText = a;">
+        </td> 
+    </td>
+        </tr>
+        <tr>
+            <td id="info" colspan="2"></td>
+        </tr>
+    </table>
+</form> -->
+<!-- bai tap 2 -->
+<!-- <form>
+    <table>
+        <caption>Phiếu đăng ký tham gia chương trình khuyến mãi</caption>
+        <tr>
+            <td><label>Họ và tên</label></td>
+            <td><input type="text" id="fullname"></td>
+        </tr>
+        <tr>
+            <td><label for="address">địa chỉ</label></td>
+            <td><input type="text" id="address"></td>
+        </tr>
+        <tr>
+            <td><label for="phone">Điện thoại</label></td>
+            <td><input type="tel" id="phone"></td>
+        </tr>
+        <tr>
+            <td>
+                <input id="male" type="radio" name="gender"> <label for="male">nam</label>
+                <input id="female" type="radio" name="gender"> <label for="female">nữ</label>
+            </td>
+        ></tr>
+        <tr>
+            <td><label for="job">Nghề Nghiệp</label></td>
+            <td>
+                <select id="job">
+                    <option>Bác sĩ</option>
+                    <option>Kỹ sư</option>
+                    <option selected>Giáo viên</option>
+                    <option>Khác</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="objects">Chọn sản phẩm tham gia</label></td>
+            <td>
+                <select id="objects" multiple>
+                    <option>kem đánh răng</option>
+                    <option>Bột giặt</option>
+                    <option>Dầu gội</option>
+                    <option>Sữa tắm</option>
+                </select>
+            </td>
+        </tr>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+        </tr>
+
+    </table>
+</form> -->
+ <!-- bai tap 3 -->
+  <!--form method="get" action="#" style="width: 300px">
+    <h2 style="color: aqua; text-align: center">Đăng nhập</h2>
+    <table style="background-color: brown"; border: 1px cellspacing="0"> 
+        <tr>
+            <td>
+                <label for="username">Mã người dùng</label>
+            </td>
+            <td>
+                <input id="username" type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password">mật khẩu</label>
+            </td>
+            <td>
+                <input id="password" type="password">
+            </td>
+        </tr>
+        <tr style="text-align: center;">
+            <td colspan="2">
+            <input type="button" value="Đồng ý" onclick="alert('Hello, World');
+            var a = document.getElementById('username').value;
+             document.getElementById('info').innerText = a;">
+        </td> 
+    </td>
+        </tr>
+        <tr>
+            <td id="info" colspan="2"></td>
+        </tr>
+    </table>
+</form>-->
+<!--<form>
+    <table border="1px">
+        <caption>Phiếu đăng ký tham gia chương trình khuyến mãi</caption>
+        <tr>
+            <td><label>Họ và tên</label></td>
+            <td><input type="text" id="fullname"></td>
+        </tr>
+        <tr>
+            <td><label for="address">địa chỉ</label></td>
+            <td><input type="text" id="address"></td>
+        </tr>
+        <tr>
+            <td><label for="phone">Điện thoại</label></td>
+            <td><input type="tel" id="phone"></td>
+        </tr>
+        <tr>
+            <td>
+                <input id="male" type="radio" name="gender"> <label for="male">nam</label>
+                <input id="female" type="radio" name="gender"> <label for="female">nữ</label>
+            </td>
+        ></tr>
+        <tr>
+            <td><label for="job">Nghề Nghiệp</label></td>
+            <td>
+                <select id="job">
+                    <option>Bác sĩ</option>
+                    <option>Kỹ sư</option>
+                    <option selected>Giáo viên</option>
+                    <option>Khác</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="objects">Chọn sản phẩm tham gia</label></td>
+            <td>
+                <select id="objects" multiple>
+                    <option>kem đánh răng</option>
+                    <option>Bột giặt</option>
+                    <option>Dầu gội</option>
+                    <option>Sữa tắm</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="people">Số người dự đoán tham gia</label></td>
+            <td><input type="number" id="people"></td>
+        </tr>
+        <tr> 
+            <td colspan="2"style="text-align:center">
+                <button type="button" onclick="document.getElementById('info').innerHTML = 'bạn đã đăng ký thành công!!!!'">
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" id="info" style="color: red; text-align: center"></td>
+        </tr>
+
+    </table>
+</form> -->
+<form>
+    <table style="color: deepskyblue; width: 500px;" border="1px"cellspacing="0">
+        <caption style="font-size: 32px"><d>Đăng ký du lịch</d></caption>
+        <tr>
+            <td><label for="fullname">Họ và tên</label></td>
+            <td><input type="text" id="fullname"></td>
+        </tr>
+        <tr>
+            <td><label for="phone">điện thoại</label></td>
+            <td><input type="tel" id="phone"></td>
+        </tr>
+        <tr>
+            <td><label for="customer">Khách Việt Nam</label></td>
+            <td><input type="checkbox" id="customer" checked></td>
+        </tr>
+        <tr>
+            <td><label>Chọn tour</label></td>
+            <td>
+                <select>
+                    <optgroup label="Miền Bắc">
+                        <option>Hà Nội - Hạ Long - Sapa</option>
+                        <option>Hà Nội - Chùa Hương - Ninh Bình</option>
+                        <option>Hà Nội - Cát Bà - Tuấn Châu</option>
+                    </optgroup>
+                    <optgroup label="Miền Nam">
+                        <option>TPHCM - Cần Thơ - Cà Mau</option>
+                        <option>TPHCM - Mỹ Tho</option>
+                    <optgroup label="Miền Trung">
+                        <option>Huế - Bạch Mã - Đà Nẵng</option>
+                        <option>Nha Trang - Đà Lạt</option>
+                        <option>Buôn Ma Thuột - Gia Lai - Kontum</option>
+                    </optgroup>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Phương tiện</td>
+            <td>
+                <input type="radio" id="airplane"> <label for="airplane">Máy Bay</label>
+                <input type="radio" id="car" name="transpot"> <label for="car">Xe ô tô</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <fieldset style="border-color: brown ; width: 350px; height: 55px; text-align: center; margin-left: auto; margin-right: ;>
+                    <legend style="color: brown"><i> Số lượng đoàn khách</i></legend>
+                    <label>Người lớn</label> <input type="number" id="parents">
+                    <label>Trẻ em</label> <input type="number" id="children">
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="notes">Ghi chú thêm</label></td>
+            <td><textarea id="notes"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="button" value="đồng ý"></td>
+        </tr>
+        <tr>
+            <td colspan="2" id="info"></td>
+        </tr>
+    </table>
+
+</form> -->
+</body>
+</html>
